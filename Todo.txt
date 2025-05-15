@@ -1,0 +1,44 @@
+TODO:
+X implement support for LCS
+X create LCS icon library
+- implement game version control for LCS
+X implement support for VCS
+X create VCS icon library
+X implement game version control for VCS
+X implement PPSSPP version control with signature scanning
++ create tutorial requirement list
+
+X make every game use it's own individual icon library
+X create a speicific label for game modules to update custom code variables
+X move version control implementation to game modules
+X move memory reading implementation to game modules
+X move requirement type handling to the memory reading function in game modules
+
+X implement status text next to Change Output Type button
+X implement status text in File output mode
+X implement check for 64 bit AHK
+? check for admin rights doesn't work
+X decide how version detection failure impacts the program's life
+
+X reimplement color selector (for 64 bit AHK)
+X add starting custom colors (text in top, background in bottom row)
+X save custom colors in config
+X add color preview in Settings Window
+- reimplement font selector (for 64 bit AHK)
+X implement font size option
+X enable refresh rate setting
+X implement support for Lighnat0r's config
+
+X create executable icon
+X change text and background colors via Font sub-command
+- fix clicks falling through the welcome screen with 100% transparency
++ reimplement column width calculation
+X fix column widths in icons mode when using high values (1000+)
+- fix column widths in text mode (%, decimal?)
+X fix column widths in icons mode when using decimals
++ fix column widths when increasing font size
+X fix output window width when using a high number of ListViews
+- fix output window height when increasing font size
+
+- create GitHub repository
+- change or disable autoupdate feature
